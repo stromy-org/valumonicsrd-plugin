@@ -1,0 +1,33 @@
+:root {
+  /* Schema A required */
+  --color-primary: #2c74bc;
+  --color-secondary: #142c4c;
+  --color-accent: #c4daf3;
+  --color-background: #f7f7f7;
+  --color-background-alt: #f2f7fd;
+  --color-text: #142c4c;
+  --color-text-light: #acacb3;
+  --color-success: #28A745;
+  --color-warning: #FFC107;
+  --color-error: #DC3545;
+
+  /* Design-system extras */
+  --color-surface: #ffffff;
+  --color-text-on-accent: #ffffff;
+  --color-blue-dark: #1b4d89;
+  --color-warm-white: #f9f7f5;
+
+  /* Fonts */
+  --font-heading: 'Manrope', Arial, 'Helvetica Neue', sans-serif;
+  --font-body: 'Manrope', Arial, 'Helvetica Neue', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-label: 'Manrope', Arial, 'Helvetica Neue', sans-serif;
+
+  /* Brand geometry & elevation (from live-site Tier 4/5) */
+  --radius-pill: 200px;
+  --radius-nav: 50px;
+  --radius-card: 14px;
+  --shadow-soft: 0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06);
+  --gradient-brand-light: linear-gradient(to right, #c4daf3, #2c74bc);
+  --gradient-brand-dark: linear-gradient(to right, #1b4d89, #2c74bc);
+}

@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "fonts": [],
+  "logos": [
+    {
+      "name": "VALUMONICS-LOGO-COLOR-e1750178177999.png",
+      "sha256": "526c4d9b9c8717525174cdb850ac395d6a6b7999721fffa1dfc1b0f0f36dfb04",
+      "mime": "image/png"
+    },
+    {
+      "name": "apple-touch-icon.png",
+      "sha256": "c040f479a37bfdf07762808c792b8ffa905d95f26b6276f5727f7f196f56f732",
+      "mime": "image/png"
+    },
+    {
+      "name": "cropped-favicon_valumonics-1.png",
+      "sha256": "e7c34ad9ba86a71ad416deadb03308ae58d2a148cfcfca0326db62ccca2d2f0a",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-16.png",
+      "sha256": "7cc2fec0b43ca3bd5d42d03485d724ff57c90d9289bbaf85541c5c6de230ac80",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-192.png",
+      "sha256": "a7d735fe3c8ecba824d39f9a08f1576e43edaf0e07caea7f9c470c0d5f76377f",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-32.png",
+      "sha256": "0eb92078b55c70e833cbe13185f4991fe160694acb18e8d29a1d4282ad25e551",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon_valumonics.png",
+      "sha256": "41c53751c9e00484c12329250cbb983d33155cbd46c7ba851975fc67df8bae6a",
+      "mime": "image/png"
+    },
+    {
+      "name": "icon-white.png",
+      "sha256": "fc65bcdc33cc5e2a3f0645a762834a0475b21785c698c579f26d1a6e212a266c",
+      "mime": "image/png"
+    },
+    {
+      "name": "icon.png",
+      "sha256": "41c53751c9e00484c12329250cbb983d33155cbd46c7ba851975fc67df8bae6a",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo-white-arcs.png",
+      "sha256": "75370625c48a308adfc3c8d835e98b06e525f2bdf716c22cfb40d8258a996bc3",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo-white.png",
+      "sha256": "317096574ec6810cdc809150c74fe5f4e4e666057447d2d5200f75209cd085b2",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo.png",
+      "sha256": "77f8862f67cc1814e0b16d2028cfbb5ecb0f26f730ed0c907fb736504c7a2050",
+      "mime": "image/png"
+    },
+    {
+      "name": "og-image.png",
+      "sha256": "20c52eca8769a889b4fcd544d2130a59e260d651f1afaeb56d52de863e423b97",
+      "mime": "image/png"
+    }
+  ],
+  "images": [
+    {
+      "name": "art-navy-gold-01-overlay.jpg",
+      "sha256": "3531b96e5126529ea0f4f007d5b88950eb04dcb116ba6f5c71322949c0bdd53d",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "art-navy-gold-01.png",
+      "sha256": "6cd4af39fd59e4132a2f696ce66a793f75646285842d86b1e8c7e372d15ecdb7",
+      "mime": "image/png"
+    },
+    {
+      "name": "art-navy-gold-02-overlay.jpg",
+      "sha256": "4e8c721427197492e44ac43a8f19a4621d4bde14fc37be4116f5505f7fd96716",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "art-navy-gold-02.png",
+      "sha256": "3af195ac752fd7077bee07f02be80352818bcda4d666c7ca048c93e61970d3a1",
+      "mime": "image/png"
+    },
+    {
+      "name": "art-navy-gold-03-overlay.jpg",
+      "sha256": "e88470ed93ec873a0a667429ffddfa9d87d0d2e33a958f219637172243f20a21",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "art-navy-gold-03.png",
+      "sha256": "94458d070aea623c407951ce060ce2a26c78da3a37e133237ea1dd9185122f29",
+      "mime": "image/png"
+    },
+    {
+      "name": "gradient-accent.png",
+      "sha256": "8c37f0d96fdcf4c69a8238a58e37a36ab11494b3887a381f789978faaba222ef",
+      "mime": "image/png"
+    },
+    {
+      "name": "gradient-dark.png",
+      "sha256": "d2030288ec50c05be508513c6faecccd928e7771655875d948adcbf16a4beef9",
+      "mime": "image/png"
+    },
+    {
+      "name": "gradient-light.png",
+      "sha256": "314042d96e351961d0cbd58170f3d75bde0c27ce48b38b5c55728b29d8de2cc2",
+      "mime": "image/png"
+    },
+    {
+      "name": "hero-bonsai-poster-overlay.jpg",
+      "sha256": "5ce2ffe460ad08d621244c48b1e09727923f0ea21ddd12c452a0a384915b7a01",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "hero-bonsai-poster.jpg",
+      "sha256": "b20f2daf6341e1b9ece7abd0a3f3b58c8701ed4d5e0042a936ba94dd1c8dd597",
+      "mime": "image/jpeg"
+    }
+  ]
+}

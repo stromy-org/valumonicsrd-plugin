@@ -1,0 +1,645 @@
+{
+ "schemaVersion": 1,
+ "name": "Valumonics",
+ "meta": {
+  "status": "bootstrap",
+  "tier": "producer",
+  "slug": "valumonicsrd",
+  "displayName": "Valumonics",
+  "tagline": "Firma líder en banca de inversión y consultoría estratégica en la República Dominicana",
+  "industry": "Investment Banking / Strategic Consulting",
+  "domain": "valumonics.com",
+  "contact": "info@valumonics.com",
+  "source": "brand-intelligence",
+  "source_run": "2026-08-16-valumonicsrd"
+ },
+ "colors": {
+  "primary": "#2c74bc",
+  "secondary": "#142c4c",
+  "accent": "#c4daf3",
+  "background": "#f7f7f7",
+  "backgroundAlt": "#f2f7fd",
+  "text": "#142c4c",
+  "textLight": "#acacb3",
+  "success": "#28A745",
+  "warning": "#FFC107",
+  "error": "#DC3545",
+  "surface": "#ffffff",
+  "textOnAccent": "#ffffff",
+  "blueDark": "#1b4d89",
+  "warmWhite": "#f9f7f5"
+ },
+ "fonts": {
+  "heading": {
+   "family": "Manrope",
+   "embedFamily": "Manrope",
+   "weight": "700",
+   "fallback": "Arial, 'Helvetica Neue', sans-serif",
+   "fallbackStack": [
+    "Arial",
+    "Helvetica Neue",
+    "sans-serif"
+   ],
+   "webSafe": "Arial"
+  },
+  "body": {
+   "family": "Manrope",
+   "embedFamily": "Manrope",
+   "weight": "500",
+   "fallback": "Arial, 'Helvetica Neue', sans-serif",
+   "fallbackStack": [
+    "Arial",
+    "Helvetica Neue",
+    "sans-serif"
+   ],
+   "webSafe": "Arial"
+  },
+  "mono": {
+   "family": "ui-monospace",
+   "embedFamily": "ui-monospace",
+   "weight": "normal",
+   "fallback": "SFMono-Regular, Menlo, Consolas, monospace",
+   "fallbackStack": [
+    "SFMono-Regular",
+    "Menlo",
+    "Consolas",
+    "monospace"
+   ],
+   "webSafe": "Consolas"
+  },
+  "label": {
+   "family": "Manrope",
+   "embedFamily": "Manrope",
+   "weight": "600",
+   "case": "uppercase",
+   "tracking": "0.06em",
+   "fallback": "Arial, 'Helvetica Neue', sans-serif",
+   "fallbackStack": [
+    "Arial",
+    "Helvetica Neue",
+    "sans-serif"
+   ],
+   "webSafe": "Arial"
+  }
+ },
+ "logo": {
+  "primary": "logos/logo.png",
+  "png": "logos/logo.png",
+  "white": "logos/logo-white.png",
+  "whitePng": "logos/logo-white.png",
+  "whiteArcs": "logos/logo-white-arcs.png",
+  "mark": "logos/icon.png",
+  "markWhite": "logos/icon-white.png",
+  "favicon": "logos/favicon.ico",
+  "faviconPng": "logos/favicon-192.png",
+  "maxWidth": "220pt",
+  "maxHeight": "40pt",
+  "sizing": "contain",
+  "usage": {
+   "onLight": "primary",
+   "onDark": "white or whiteArcs",
+   "onImage": "white"
+  },
+  "favicon32": "logos/favicon-32.png",
+  "appIcon": "logos/apple-touch-icon.png",
+  "ogImage": "logos/og-image.png"
+ },
+ "images": {
+  "overlay": {
+   "color": "secondary",
+   "opacity": 0.55
+  },
+  "logoVariantOnImage": "white",
+  "catalog": [
+   {
+    "file": "images/art-navy-gold-01.png",
+    "description": "Commissioned painterly artwork: navy mountains, golden firefly cluster left, gold flow-lines",
+    "roles": [
+     "divider",
+     "cover"
+    ],
+    "hero": true,
+    "treatment": "none — artwork IS the treatment",
+    "theme": "painterly-navy-gold",
+    "stock": false
+   },
+   {
+    "file": "images/art-navy-gold-02.png",
+    "description": "Artwork series #2: layered navy hills, gold swirl pool lower-left",
+    "roles": [
+     "divider",
+     "section"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "painterly-navy-gold",
+    "stock": false
+   },
+   {
+    "file": "images/art-navy-gold-03.png",
+    "description": "Artwork series #3: firefly burst upper-left over navy ridges",
+    "roles": [
+     "divider",
+     "closing"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "painterly-navy-gold",
+    "stock": false
+   },
+   {
+    "file": "images/hero-bonsai-poster.jpg",
+    "description": "Hero video poster frame: sculptural bonsai on stone plinth, pale sky",
+    "roles": [
+     "cover",
+     "closing"
+    ],
+    "hero": true,
+    "treatment": "optional secondary overlay 0.55 for text",
+    "theme": "bonsai-sky",
+    "stock": false
+   }
+  ],
+  "video": {
+   "file": "images/hero-video.mp4",
+   "role": "hero-background",
+   "description": "Blossoming bonsai brand video, 6.1MB"
+  },
+  "note": "Team/office photography EXCLUDED from render catalog by operator decision (2026-08-16) — headshots stay people-assets only. Library is thin (4 entries, 2 themes): brand-imagery generation pass recommended to fill cover/section/closing roles per theme."
+ },
+ "presentation": {
+  "aspectRatio": "16:9",
+  "slideMargin": "40pt",
+  "titleMargin": "60pt",
+  "contentMargin": "40pt",
+  "aspectRatios": [
+   "16:9",
+   "9:16"
+  ],
+  "defaultAspectRatio": "16:9",
+  "safeMargins": {
+   "top": "32px",
+   "bottom": "60px",
+   "left": "60px",
+   "right": "60px"
+  },
+  "footer": {
+   "show": true,
+   "logo": true,
+   "logoVariant": "white",
+   "pageNumbers": true
+  },
+  "cover": {
+   "useHeroImage": true,
+   "overlayOpacity": 0.55
+  },
+  "divider": {
+   "useHeroImage": true,
+   "overlayOpacity": 0.6
+  },
+  "pageNumber": {
+   "show": true,
+   "format": "{page} / {pages}",
+   "position": "footer-right"
+  }
+ },
+ "document": {
+  "margins": {
+   "top": "1in",
+   "bottom": "1in",
+   "left": "1in",
+   "right": "1in"
+  },
+  "header": {
+   "content": "VALUMONICS",
+   "logo": true
+  },
+  "footer": {
+   "content": "Confidencial",
+   "pageNumbers": true
+  },
+  "headingColor": "secondary",
+  "tableHeaderColor": "secondary"
+ },
+ "typographyNotes": {
+  "letterSpacing": {
+   "headings": "-0.02em",
+   "body": "-0.019em"
+  },
+  "bodyLineHeight": 1.8,
+  "h1Desktop": "36px"
+ },
+ "identity": {
+  "archetype": {
+   "primary": null,
+   "secondary": null,
+   "status": "pending",
+   "rationale": "no brand book found; Sage/Ruler signals in voice (professorial aphorisms + quiet authority) — for brand-builder discovery, not auto-assigned"
+  },
+  "essence": "El puente entre el valor real y la liquidez estratégica — quiet, patient expertise that protects and grows Dominican family wealth.",
+  "positioning": "Firma independiente líder de banca de inversión y consultoría estratégica en República Dominicana, para familias empresarias y empresas líderes del middle-market.",
+  "personalityTraits": [
+   "sober",
+   "authoritative",
+   "patient",
+   "discreet",
+   "technical-yet-didactic"
+  ],
+  "personalityAxes": {
+   "formalCasual": 0.15,
+   "traditionalInnovative": 0.4,
+   "reservedExpressive": 0.25,
+   "analyticalIntuitive": 0.2,
+   "establishedRebellious": 0.1
+  }
+ },
+ "expression": {
+  "source": "official_published",
+  "confidence": "medium",
+  "status": "needs-review",
+  "principles": [
+   "Quiet wealth: restrained blue field; gold exists ONLY inside the artwork, never as a UI color",
+   "Pill geometry everywhere: 200px-radius buttons, floating pill nav, rounded cards",
+   "Painterly landscape artwork (navy mountains + golden firefly clusters + gold flow-lines) is the signature imagery — real commissioned painting, physical + digital",
+   "Photography = studio/office portraits with the brand painting as backdrop",
+   "Aphoristic display copy: short declarative wisdom lines; big accent-blue numerals with superscript +",
+   "Soft diagonal light-blue gradient washes as page backgrounds; solid navy panels for contrast sections"
+  ],
+  "visualAxes": {
+   "density": "airy",
+   "contrast": "medium-high",
+   "symmetry": "balanced-asymmetric",
+   "geometry": "pill-rounded",
+   "typeExpression": "single-family (Manrope), weight-contrast only, tight tracking",
+   "imageTreatment": "painterly-artwork + warm office photography",
+   "motifProminence": "medium (ripple mark as section punctuation)",
+   "colorRhythm": "blue monochrome + reserved gold-in-artwork",
+   "ornament": "minimal"
+  },
+  "signatureElements": [
+   {
+    "id": "ripple-mark",
+    "desc": "concentric sonar arcs (from wordmark U)"
+   },
+   {
+    "id": "artwork-series",
+    "desc": "navy+gold painterly landscapes"
+   },
+   {
+    "id": "gradient-1",
+    "value": "linear-gradient(to right,#c4daf3,#2c74bc)"
+   },
+   {
+    "id": "gradient-2",
+    "value": "linear-gradient(to right,#1b4d89,#2c74bc)"
+   },
+   {
+    "id": "pill-nav",
+    "desc": "floating translucent white pill header, radius 50px"
+   },
+   {
+    "id": "stat-numerals",
+    "desc": "oversized #2c74bc numerals with superscript '+', label beside"
+   },
+   {
+    "id": "soft-shadow",
+    "value": "0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06)"
+   }
+  ],
+  "antiPatterns": [
+   "orange/warm accent colors in UI",
+   "gold as flat UI color (gold lives only in artwork)",
+   "sharp/square buttons",
+   "dense text walls",
+   "stock-photo genericity"
+  ],
+  "requiredMotifs": [],
+  "evidence": [
+   {
+    "kind": "css_vars",
+    "sourceAuthority": "public_scrape",
+    "confidence": "high",
+    "freshness": "current",
+    "surface": "web",
+    "rightsStatus": "approved",
+    "fetchedAt": "2026-08-16T04:15:00Z",
+    "url": "https://valumonics.com/wp-content/uploads/sites/7/salient/salient-dynamic-styles-multi-id-7.css"
+   },
+   {
+    "kind": "computed_style",
+    "sourceAuthority": "public_scrape",
+    "confidence": "high",
+    "freshness": "current",
+    "surface": "web",
+    "rightsStatus": "approved",
+    "fetchedAt": "2026-08-16T04:15:00Z",
+    "url": "https://valumonics.com/"
+   },
+   {
+    "kind": "dom_asset",
+    "sourceAuthority": "public_scrape",
+    "confidence": "medium",
+    "freshness": "current",
+    "surface": "web",
+    "rightsStatus": "approved",
+    "fetchedAt": "2026-08-16T04:15:00Z",
+    "note": "grammar/ PNGs",
+    "url": "https://valumonics.com/ + /la-firma/ + /equipo/ full-page screenshots"
+   },
+   {
+    "kind": "licensed_api",
+    "sourceAuthority": "licensed_api",
+    "confidence": "low",
+    "freshness": "current",
+    "surface": "web",
+    "rightsStatus": "unknown",
+    "fetchedAt": "2026-08-16T04:15:00Z",
+    "note": "colors/fonts superseded; facts retained",
+    "url": "brandfetch:idmchadIqo"
+   }
+  ],
+  "visual_grammar": {
+   "backgrounds": {
+    "status": "proposed",
+    "evidence": {
+     "tier": "live-site",
+     "source": "grammar-evidence/{homepage-full,la-firma-full,equipo-full}.png + Salient dynamic CSS canvas colors"
+    },
+    "tokens": [
+     "--color-background",
+     "--color-background-alt",
+     "--gradient-brand-light"
+    ],
+    "candidates": [
+     {
+      "id": "site-canvas-system",
+      "spec": {
+       "canvases": [
+        {
+         "name": "light-body",
+         "role": "default page canvas",
+         "css": "#f7f7f7"
+        },
+        {
+         "name": "warm-band",
+         "role": "editorial/testimonial band",
+         "css": "#f9f7f5"
+        },
+        {
+         "name": "blue-wash",
+         "role": "section wash — soft diagonal light-blue gradient",
+         "css": "#f2f7fd"
+        },
+        {
+         "name": "navy-panel",
+         "role": "cover / divider / contrast section (white logo + white text only — navy-on-navy is a documented anti-pattern)",
+         "css": "#142c4c"
+        },
+        {
+         "name": "gray-panel",
+         "role": "neutral utility panel",
+         "css": "#d7d7d7"
+        }
+       ]
+      }
+     }
+    ],
+    "selected": "site-canvas-system"
+   },
+   "motifs": {
+    "status": "proposed",
+    "evidence": {
+     "tier": "live-site",
+     "source": "ripple mark rendered at ~482px as section motif on valumonics.com; polygon shape-divider rgba(172,172,179,0.38). SVG vectorization outstanding — marks are PNG-only."
+    },
+    "assets": [
+     "logos/icon.png",
+     "logos/icon-white.png"
+    ],
+    "candidates": [
+     {
+      "id": "ripple-arcs",
+      "spec": {
+       "name": "ripple",
+       "marks": [
+        {
+         "id": "ripple-mark",
+         "asset": "logos/icon.png",
+         "desc": "concentric sonar arcs derived from the wordmark U"
+        },
+        {
+         "id": "ripple-mark-white",
+         "asset": "logos/icon-white.png",
+         "desc": "white variant for navy panels and imagery"
+        },
+        {
+         "id": "shape-divider",
+         "desc": "flat polygon section divider, rgba(172,172,179,0.38)"
+        }
+       ],
+       "roles": {
+        "section-accent": "oversized ghosted ripple as section punctuation",
+        "divider-edge": "polygon divider between contrasting canvases"
+       },
+       "allowedSurfaces": [
+        "cover",
+        "section-divider",
+        "closing",
+        "website-sections"
+       ],
+       "usageCaps": {
+        "maxPerSurface": 1,
+        "ghostOpacityRange": [
+         0.08,
+         0.2
+        ]
+       },
+       "tokenPrefix": "--motif-ripple"
+      }
+     }
+    ],
+    "selected": "ripple-arcs"
+   },
+   "patterns": {
+    "status": "n-a",
+    "evidence": {
+     "tier": "live-site",
+     "source": "no tileable pattern system on valumonics.com — canvases are flat tints, gradient washes and commissioned artwork"
+    }
+   },
+   "grid": {
+    "status": "proposed",
+    "evidence": {
+     "tier": "live-site",
+     "source": "Salient container metrics measured on valumonics.com (container 1425px / padding 70px / wide 1725px / single-post 700px)"
+    },
+    "candidates": [
+     {
+      "id": "salient-container",
+      "spec": {
+       "columns": 12,
+       "maxWidth": "1425px",
+       "wideMaxWidth": "1725px",
+       "narrowMaxWidth": "700px",
+       "margins": "70px",
+       "rhythm": "airy — generous vertical whitespace between sections"
+      }
+     }
+    ],
+    "selected": "salient-container"
+   },
+   "iconography": {
+    "status": "proposed",
+    "evidence": {
+     "tier": "live-site",
+     "source": "minimal icon use: thin-line Salient/Linea icons + footer social glyphs; no brand-owned icon set (sample capped at 0)"
+    },
+    "candidates": [
+     {
+      "id": "thin-line-minimal",
+      "spec": {
+       "style": "line",
+       "strokeWeight": "thin (~1.5px)",
+       "corner": "rounded",
+       "fillVsLine": "line",
+       "sample": [],
+       "usage": "sparing — icons never carry a section; prefer oversized accent-blue numerals + type"
+      }
+     }
+    ],
+    "selected": "thin-line-minimal"
+   },
+   "gradients": {
+    "status": "proposed",
+    "evidence": {
+     "tier": "live-site",
+     "source": "the two official Salient gradients on valumonics.com"
+    },
+    "tokens": [
+     "--gradient-brand-light",
+     "--gradient-brand-dark"
+    ],
+    "assets": [
+     "pptx-assets/gradient-light.png",
+     "pptx-assets/gradient-accent.png",
+     "pptx-assets/gradient-dark.png"
+    ],
+    "candidates": [
+     {
+      "id": "official-pair",
+      "spec": {
+       "gradients": [
+        {
+         "name": "brand-light",
+         "stops": [
+          "#c4daf3",
+          "#2c74bc"
+         ],
+         "direction": "to right",
+         "usage": "accent bands, light section washes, CTA fields"
+        },
+        {
+         "name": "brand-dark",
+         "stops": [
+          "#1b4d89",
+          "#2c74bc"
+         ],
+         "direction": "to right",
+         "usage": "covers, dark CTA panels, footer fields"
+        }
+       ]
+      }
+     }
+    ],
+    "selected": "official-pair"
+   },
+   "photo": {
+    "status": "proposed",
+    "evidence": {
+     "tier": "derived",
+     "source": "compiled images/manifest.json treatments (none | navy-veil); team photos excluded from the render catalog by operator decision 2026-08-17"
+    },
+    "candidates": [
+     {
+      "id": "manifest-treatments",
+      "spec": {
+       "overlayOpacity": 0.55,
+       "treatment": "navy-veil for text-over-image; commissioned artwork used untreated",
+       "crop": "focalPoint-driven per images/manifest.json"
+      }
+     }
+    ],
+    "selected": "manifest-treatments"
+   },
+   "elevation": {
+    "status": "proposed",
+    "evidence": {
+     "tier": "live-site",
+     "source": "card shadow + pill radii measured on valumonics.com"
+    },
+    "tokens": [
+     "--shadow-soft",
+     "--radius-pill"
+    ],
+    "candidates": [
+     {
+      "id": "soft-pill",
+      "spec": {
+       "shadows": [
+        {
+         "name": "soft",
+         "css": "0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06)"
+        }
+       ],
+       "glows": [],
+       "borders": {
+        "buttons": "200px pill",
+        "nav": "50px pill",
+        "cards": "moderate rounded (~10-16px)"
+       }
+      }
+     }
+    ],
+    "selected": "soft-pill"
+   },
+   "motion": {
+    "status": "deferred",
+    "evidence": {
+     "tier": "live-site",
+     "source": "AOS fade/slide reveals + Lenis smooth-scroll + 0.8s Salient section color transitions on valumonics.com — motion.spec content owned by P6 (PLAN_motion-capability)"
+    }
+   }
+  }
+ },
+ "placeholderPolicy": {
+  "brandFields": [
+   "colors",
+   "fonts",
+   "logo",
+   "images"
+  ],
+  "externalFields": [],
+  "fallback": "placeholders",
+  "placeholderFormat": "{{fieldName}}"
+ },
+ "pptxAssets": {
+  "gradients": {
+   "dark": "pptx-assets/gradient-dark.png",
+   "accent": "pptx-assets/gradient-accent.png",
+   "light": "pptx-assets/gradient-light.png"
+  },
+  "motifs": {},
+  "overlays": {
+   "art-navy-gold-01": "pptx-assets/overlays/art-navy-gold-01-overlay.jpg",
+   "art-navy-gold-02": "pptx-assets/overlays/art-navy-gold-02-overlay.jpg",
+   "art-navy-gold-03": "pptx-assets/overlays/art-navy-gold-03-overlay.jpg",
+   "hero-bonsai-poster": "pptx-assets/overlays/hero-bonsai-poster-overlay.jpg"
+  }
+ },
+ "templates": {
+  "docx": {
+   "styles": "templates/docx/styles.docx",
+   "letterhead": "templates/docx/letterhead.docx"
+  }
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "version": "1.0",
+ "themes": {
+  "painterly-navy-gold": {
+   "description": "Commissioned artwork series: navy mountain/water landscapes with golden firefly clusters and gold flow-lines. The signature brand imagery — physical painting in office + digital.",
+   "hero": "art-navy-gold-01.png"
+  },
+  "bonsai-sky": {
+   "description": "Sculptural bonsai on stone plinth against pale sky (hero video frame). Patience/legacy metaphor.",
+   "hero": "hero-bonsai-poster.jpg"
+  }
+ },
+ "treatments": {
+  "none": "artwork used as-is — the artwork IS the treatment",
+  "navy-veil": "secondary #142c4c overlay at 0.55 for text legibility"
+ },
+ "library": [
+  {
+   "file": "art-navy-gold-01.png",
+   "description": "Commissioned painterly artwork: navy mountains, golden firefly cluster left, gold flow-lines",
+   "roles": [
+    "divider",
+    "cover"
+   ],
+   "hero": true,
+   "theme": "painterly-navy-gold",
+   "treatment": "none",
+   "mood": "contemplative",
+   "orientation": "portrait",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.28,
+     "y": 0.32
+    }
+   },
+   "source": "brand-intelligence 2026-08-16 (valumonics.com)",
+   "rightsStatus": "public_use"
+  },
+  {
+   "file": "art-navy-gold-02.png",
+   "description": "Artwork series #2: layered navy hills, gold swirl pool lower-left",
+   "roles": [
+    "divider",
+    "section"
+   ],
+   "hero": false,
+   "theme": "painterly-navy-gold",
+   "treatment": "none",
+   "mood": "contemplative",
+   "orientation": "portrait",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.35,
+     "y": 0.72
+    }
+   },
+   "source": "brand-intelligence 2026-08-16 (valumonics.com)",
+   "rightsStatus": "public_use"
+  },
+  {
+   "file": "art-navy-gold-03.png",
+   "description": "Artwork series #3: firefly burst upper-left over navy ridges",
+   "roles": [
+    "divider",
+    "closing"
+   ],
+   "hero": false,
+   "theme": "painterly-navy-gold",
+   "treatment": "none",
+   "mood": "contemplative",
+   "orientation": "portrait",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.3,
+     "y": 0.28
+    }
+   },
+   "source": "brand-intelligence 2026-08-16 (valumonics.com)",
+   "rightsStatus": "public_use"
+  },
+  {
+   "file": "hero-bonsai-poster.jpg",
+   "description": "Hero video poster frame: sculptural bonsai on stone plinth, pale sky",
+   "roles": [
+    "cover",
+    "closing"
+   ],
+   "hero": true,
+   "theme": "bonsai-sky",
+   "treatment": "navy-veil",
+   "mood": "serene",
+   "orientation": "landscape",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.5,
+     "y": 0.42
+    }
+   },
+   "source": "brand-intelligence 2026-08-16 (valumonics.com)",
+   "rightsStatus": "public_use"
+  }
+ ],
+ "video": {
+  "file": "images/hero-video.mp4",
+  "role": "hero-background",
+  "description": "Blossoming bonsai brand video, 6.1MB"
+ },
+ "notes": "Team photography deliberately excluded (operator 2026-08-16). Library thin: brand-imagery generation pass recommended to widen per-theme role coverage."
+}

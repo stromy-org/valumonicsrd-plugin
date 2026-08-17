@@ -1,0 +1,55 @@
+{
+ "generated": "2026-08-16T04:15:00Z",
+ "evidence_tier": "live-site",
+ "status": "candidate — for brand-visual-grammar recover mode",
+ "dimensions": {
+  "backgrounds": {
+   "body": "#f7f7f7",
+   "warm_band": "#f9f7f5",
+   "blue_tints": [
+    "#f2f7fd",
+    "#f4f7f9",
+    "#eefbfa"
+   ],
+   "contrast_panel": "#142c4c navy",
+   "gray_panel": "#d7d7d7",
+   "soft diagonal light-blue gradient washes on la-firma/equipo": true
+  },
+  "gradients": [
+   "linear-gradient(to right,#c4daf3,#2c74bc)",
+   "linear-gradient(to right,#1b4d89,#2c74bc)"
+  ],
+  "grid": {
+   "container": "1425px",
+   "padding": "70px",
+   "wide": "1725px",
+   "singlePostMax": "700px"
+  },
+  "iconography": {
+   "style": "line, thin",
+   "note": "minimal icon use; Salient theme icons; social glyphs in footer"
+  },
+  "elevation": [
+   "0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06)"
+  ],
+  "motif_candidates": [
+   "ripple-mark (favicon_valumonics.png) used at 482px as section motif",
+   "shape-divider polygon rgba(172,172,179,0.38)"
+  ],
+  "radius": {
+   "buttons": "200px pill",
+   "nav": "50px pill",
+   "cards": "moderate rounded"
+  },
+  "motion": {
+   "library": "AOS 2.3.4 + Lenis smooth-scroll + Salient page-color-change transition 0.8s",
+   "note": "gentle fade/slide reveals; smooth scrolling; section color-change transitions"
+  },
+  "screenshots": [
+   "homepage-full.png (mobile-width)",
+   "homepage-desktop-hero.png",
+   "la-firma-full.png",
+   "equipo-full.png"
+  ]
+ }
+}

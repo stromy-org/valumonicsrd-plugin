@@ -1,6 +1,15 @@
 {
   "version": "1.0",
-  "fonts": [],
+  "fonts": [
+    {
+      "family": "Manrope",
+      "weight": 200,
+      "style": "normal",
+      "sha256": "d0639be45d0af36e798172419d7bd173c4bd4f29e2b76cbb69db1d11bf8b0a40",
+      "mime": "font/ttf",
+      "name": "Manrope[wght].ttf"
+    }
+  ],
   "logos": [
     {
       "name": "VALUMONICS-LOGO-COLOR-e1750178177999.png",

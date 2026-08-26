@@ -86,7 +86,8 @@
    "description": "Hero video poster frame: sculptural bonsai on stone plinth, pale sky",
    "roles": [
     "cover",
-    "closing"
+    "closing",
+    "background"
    ],
    "hero": true,
    "theme": "bonsai-sky",

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "9fc62b7168ca11f14838c17d061d6435c418373dafde9db32cacf1506d2e954c",
+    "charterSha": "0fefafba12de82d90604dc6c6fc10d1939a9e60bd12e947acfe1c252d0c287c7",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -15,9 +15,9 @@
     "backgroundAlt": "#f2f7fd",
     "text": "#142c4c",
     "textLight": "#acacb3",
-    "success": "#28A745",
-    "warning": "#FFC107",
-    "error": "#DC3545",
+    "success": "#3E7E5B",
+    "warning": "#C69A4E",
+    "error": "#B5544D",
     "surface": "#ffffff",
     "textOnAccent": "#ffffff",
     "blueDark": "#1b4d89",
@@ -76,7 +76,7 @@
       "tracking": "0.06em"
     }
   },
-  "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary: #2c74bc;\n  --color-secondary: #142c4c;\n  --color-accent: #c4daf3;\n  --color-background: #f7f7f7;\n  --color-background-alt: #f2f7fd;\n  --color-text: #142c4c;\n  --color-text-light: #acacb3;\n  --color-success: #28A745;\n  --color-warning: #FFC107;\n  --color-error: #DC3545;\n\n  /* Design-system extras */\n  --color-surface: #ffffff;\n  --color-text-on-accent: #ffffff;\n  --color-blue-dark: #1b4d89;\n  --color-warm-white: #f9f7f5;\n\n  /* Fonts */\n  --font-heading: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-body: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;\n  --font-label: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n\n  /* Brand geometry & elevation (from live-site Tier 4/5) */\n  --radius-pill: 200px;\n  --radius-nav: 50px;\n  --radius-card: 14px;\n  --shadow-soft: 0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06);\n  --gradient-brand-light: linear-gradient(to right, #c4daf3, #2c74bc);\n  --gradient-brand-dark: linear-gradient(to right, #1b4d89, #2c74bc);\n}\n",
+  "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary: #2c74bc;\n  --color-secondary: #142c4c;\n  --color-accent: #c4daf3;\n  --color-background: #f7f7f7;\n  --color-background-alt: #f2f7fd;\n  --color-text: #142c4c;\n  --color-text-light: #acacb3;\n  --color-success: #3E7E5B;\n  --color-warning: #C69A4E;\n  --color-error: #B5544D;\n\n  /* Design-system extras */\n  --color-surface: #ffffff;\n  --color-text-on-accent: #ffffff;\n  --color-blue-dark: #1b4d89;\n  --color-warm-white: #f9f7f5;\n\n  /* Fonts */\n  --font-heading: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-body: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;\n  --font-label: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n\n  /* Brand geometry & elevation (from live-site Tier 4/5) */\n  --radius-pill: 200px;\n  --radius-nav: 50px;\n  --radius-card: 14px;\n  --shadow-soft: 0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06);\n  --gradient-brand-light: linear-gradient(to right, #c4daf3, #2c74bc);\n  --gradient-brand-dark: linear-gradient(to right, #1b4d89, #2c74bc);\n}\n",
   "identity": {
     "essence": "El puente entre el valor real y la liquidez estratégica — quiet, patient expertise that protects and grows Dominican family wealth.",
     "positioning": "Firma independiente líder de banca de inversión y consultoría estratégica en República Dominicana, para familias empresarias y empresas líderes del middle-market.",
@@ -448,9 +448,9 @@
       "#2c74bc",
       "#c4daf3",
       "#142c4c",
-      "#28A745",
-      "#FFC107",
-      "#DC3545"
+      "#3E7E5B",
+      "#C69A4E",
+      "#B5544D"
     ],
     "baseTemplate": "plotly_white",
     "font": {
@@ -460,8 +460,8 @@
     "titleFontSize": 18,
     "gridColor": "#f2f7fd",
     "sentiment": {
-      "positive": "#28A745",
-      "negative": "#DC3545",
+      "positive": "#3E7E5B",
+      "negative": "#B5544D",
       "neutral": "#acacb3"
     }
   },

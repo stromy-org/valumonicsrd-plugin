@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "3f4cb9b0e533182a671f452c37916edac7db7635df2b3f2c6088b7716c649c84",
+    "charterSha": "5977d51483a5100b591e5e712755080edd87ef52a5bc29607f32555c2afd5461",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -396,11 +396,20 @@
         }
       },
       "motion": {
-        "status": "deferred",
+        "status": "approved",
         "evidence": {
           "tier": "live-site",
           "source": "AOS fade/slide reveals + Lenis smooth-scroll + 0.8s Salient section color transitions on valumonics.com — motion.spec content owned by P6 (PLAN_motion-capability)"
-        }
+        },
+        "spec": {
+          "principle": "unhurried reveal over a continuously-scrolling surface",
+          "reveal": "AOS-style fade + slide; translate 24px → 0, opacity 0 → 1, ~700ms, ease-out",
+          "scroll": "smooth-scroll (Lenis-style inertia) rather than native jump",
+          "sectionTransition": "0.8s background colour transition between sections",
+          "scope": "section entry and section colour only; no icon animation",
+          "reducedMotion": "prefers-reduced-motion: render final state, no transition"
+        },
+        "decision": "signed off 2026-08-26 (William) against a drawn specimen: supersedes the 'motion DEFERRED to P6' line from the 2026-08-26 grammar review — the live-site evidence (AOS, Lenis, 0.8s Salient section transitions on valumonics.com) was strong enough to record the spec now."
       }
     }
   },

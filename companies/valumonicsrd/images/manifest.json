@@ -7,7 +7,11 @@
   },
   "bonsai-sky": {
    "description": "Sculptural bonsai on stone plinth against pale sky (hero video frame). Patience/legacy metaphor.",
-   "hero": "hero-bonsai-poster.jpg"
+   "hero": "bonsai-plinth-wide.jpg"
+  },
+  "still-water": {
+   "description": "Blue-monochrome fine-art photography of still water, stone and glass, built around the ripple mark's concentric arcs. Strictly no gold: the charter reserves gold for the commissioned artwork, so this theme carries none.",
+   "hero": "ripple-still-water.jpg"
   }
  },
  "treatments": {
@@ -103,6 +107,273 @@
    },
    "source": "brand-intelligence 2026-08-16 (valumonics.com)",
    "rightsStatus": "public_use"
+  },
+  {
+   "file": "ripple-still-water.jpg",
+   "description": "A single set of concentric ripple rings on still deep-navy water, the ring centre left of frame and the right two thirds left open and quiet.",
+   "roles": [
+    "background",
+    "divider"
+   ],
+   "hero": false,
+   "theme": "still-water",
+   "treatment": "none",
+   "mood": "still",
+   "orientation": "landscape",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.18,
+     "y": 0.45
+    },
+    "textSafeZone": {
+     "x": 0.42,
+     "y": 0.0,
+     "w": 0.58,
+     "h": 1.0
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "01_ripple_rings",
+    "seed": 1000,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
+  },
+  {
+   "file": "ripple-pair-ledge.jpg",
+   "description": "Two clean sets of concentric ripple rings on dark water beside a pale diagonal stone ledge.",
+   "roles": [
+    "divider",
+    "section"
+   ],
+   "hero": false,
+   "theme": "still-water",
+   "treatment": "none",
+   "mood": "still",
+   "orientation": "landscape",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.6,
+     "y": 0.45
+    },
+    "textSafeZone": {
+     "x": 0.0,
+     "y": 0.55,
+     "w": 0.5,
+     "h": 0.45
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "02_ripple_interference_v2",
+    "seed": 1011,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
+  },
+  {
+   "file": "slate-strata.jpg",
+   "description": "A blue-grey stone face of fine horizontal striations filling the frame, even enough to set type over anywhere.",
+   "roles": [
+    "background",
+    "texture"
+   ],
+   "hero": false,
+   "theme": "still-water",
+   "treatment": "none",
+   "mood": "grounded",
+   "orientation": "landscape",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "03_slate_strata_v2",
+    "seed": 1021,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
+  },
+  {
+   "file": "glass-bands.jpg",
+   "description": "An architectural glass facade abstracted into vertical bands of pale and deep blue.",
+   "roles": [
+    "background",
+    "section"
+   ],
+   "hero": false,
+   "theme": "still-water",
+   "treatment": "none",
+   "mood": "precise",
+   "orientation": "square",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "04_glass_bands_v2",
+    "seed": 1031,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
+  },
+  {
+   "file": "stone-on-water.jpg",
+   "description": "One dark river stone resting on still navy water above its own reflection, a single small ripple leaving it to the right.",
+   "roles": [
+    "closing",
+    "section"
+   ],
+   "hero": false,
+   "theme": "still-water",
+   "treatment": "none",
+   "mood": "contemplative",
+   "orientation": "square",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.38,
+     "y": 0.62
+    },
+    "textSafeZone": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 1.0,
+     "h": 0.45
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "05_stone_on_water",
+    "seed": 1040,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
+  },
+  {
+   "file": "bonsai-plinth-wide.jpg",
+   "description": "A sculptural bonsai on a rough stone plinth in the left third, the right two thirds an unbroken pale blue sky gradient.",
+   "roles": [
+    "cover",
+    "hero"
+   ],
+   "hero": true,
+   "theme": "bonsai-sky",
+   "treatment": "none",
+   "mood": "serene",
+   "orientation": "landscape",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.28,
+     "y": 0.55
+    },
+    "textSafeZone": {
+     "x": 0.45,
+     "y": 0.0,
+     "w": 0.55,
+     "h": 1.0
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "06_bonsai_wide",
+    "seed": 1050,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
+  },
+  {
+   "file": "bonsai-branch.jpg",
+   "description": "A single bonsai branch sweeping across a near-white sky toward a pale stone block at the lower right.",
+   "roles": [
+    "section"
+   ],
+   "hero": false,
+   "theme": "bonsai-sky",
+   "treatment": "none",
+   "mood": "serene",
+   "orientation": "landscape",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.3,
+     "y": 0.35
+    },
+    "textSafeZone": {
+     "x": 0.5,
+     "y": 0.3,
+     "w": 0.5,
+     "h": 0.6
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "07_bonsai_branch_v2",
+    "seed": 1061,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
+  },
+  {
+   "file": "bonsai-sea-horizon.jpg",
+   "description": "A bonsai on a small rock cluster at a level sea horizon, three quarters of the frame a smooth pale sky.",
+   "roles": [
+    "cover",
+    "closing"
+   ],
+   "hero": false,
+   "theme": "bonsai-sky",
+   "treatment": "none",
+   "mood": "serene",
+   "orientation": "landscape",
+   "stock": false,
+   "geometry": {
+    "focalPoint": {
+     "x": 0.62,
+     "y": 0.72
+    },
+    "textSafeZone": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 0.55,
+     "h": 0.6
+    }
+   },
+   "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
+   "source_detail": {
+    "model": "gemini-2.5-flash-image",
+    "backend": "Vertex AI / stromy-prod",
+    "shot": "08_sea_horizon",
+    "seed": 1070,
+    "rightsStatus": "stromy-owned"
+   },
+   "rightsStatus": "stromy-owned"
   }
  ],
  "video": {
@@ -110,5 +381,5 @@
   "role": "hero-background",
   "description": "Blossoming bonsai brand video, 6.1MB"
  },
- "notes": "Team photography deliberately excluded (operator 2026-08-16). Library thin: brand-imagery generation pass recommended to widen per-theme role coverage."
+ "notes": "Team photography deliberately excluded (operator 2026-08-16). Widened 4 → 12 on 2026-08-26 with a generated blue-monochrome set (themes still-water + bonsai-sky) to clear the DoD image floor. The painterly-navy-gold series is a REAL commissioned painting the firm owns — never generate additions to it, and never let gold appear in a generated frame: the charter reserves gold for the artwork alone."
 }

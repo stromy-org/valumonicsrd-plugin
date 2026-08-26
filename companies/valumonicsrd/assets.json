@@ -117,6 +117,26 @@
       "mime": "image/png"
     },
     {
+      "name": "bonsai-branch.jpg",
+      "sha256": "4c5935a072372aaae368a780c773162e8b66e2ad6f4c52b8794f0fa765c814ea",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "bonsai-plinth-wide.jpg",
+      "sha256": "ef82e24dfb996bb661fdaf1133030997cafe37db98adf476e400e77bd692374b",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "bonsai-sea-horizon.jpg",
+      "sha256": "ca23e1bc6ddf1abc8e0a0187ee4d57e341c3c8c535240dc575072638abb95b75",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "glass-bands.jpg",
+      "sha256": "c7e8d972eca0b83dcc4a4af6a062c7af810e5a1fb675ba7516438fc83a7d4ba7",
+      "mime": "image/jpeg"
+    },
+    {
       "name": "gradient-accent.png",
       "sha256": "8c37f0d96fdcf4c69a8238a58e37a36ab11494b3887a381f789978faaba222ef",
       "mime": "image/png"
@@ -139,6 +159,26 @@
     {
       "name": "hero-bonsai-poster.jpg",
       "sha256": "b20f2daf6341e1b9ece7abd0a3f3b58c8701ed4d5e0042a936ba94dd1c8dd597",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "ripple-pair-ledge.jpg",
+      "sha256": "9e13a47d3b9fcd6215a490e420043de35c5469ae39ca73f95513918f7f694b48",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "ripple-still-water.jpg",
+      "sha256": "e777ad2401ad7fe8333a1b3e2da1ed65b3a4f0bcb8a89422bf125dd3c30da3f5",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "slate-strata.jpg",
+      "sha256": "d8ac7cbf4efc6a8cb353fbad37f165651f775a2a1704e499bc9bac44313b92dd",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "stone-on-water.jpg",
+      "sha256": "d8d8fed4f4634277fde96a6f858abf0e0099b79518269cf7327aee1309ab3f27",
       "mime": "image/jpeg"
     }
   ]

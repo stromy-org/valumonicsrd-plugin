@@ -159,6 +159,101 @@
     "treatment": "optional secondary overlay 0.55 for text",
     "theme": "bonsai-sky",
     "stock": false
+   },
+   {
+    "file": "images/ripple-still-water.jpg",
+    "description": "A single set of concentric ripple rings on still deep-navy water, the ring centre left of frame and the right two thirds left open and quiet.",
+    "roles": [
+     "background",
+     "divider"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "still-water",
+    "stock": false
+   },
+   {
+    "file": "images/ripple-pair-ledge.jpg",
+    "description": "Two clean sets of concentric ripple rings on dark water beside a pale diagonal stone ledge.",
+    "roles": [
+     "divider",
+     "section"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "still-water",
+    "stock": false
+   },
+   {
+    "file": "images/slate-strata.jpg",
+    "description": "A blue-grey stone face of fine horizontal striations filling the frame, even enough to set type over anywhere.",
+    "roles": [
+     "background",
+     "texture"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "still-water",
+    "stock": false
+   },
+   {
+    "file": "images/glass-bands.jpg",
+    "description": "An architectural glass facade abstracted into vertical bands of pale and deep blue.",
+    "roles": [
+     "background",
+     "section"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "still-water",
+    "stock": false
+   },
+   {
+    "file": "images/stone-on-water.jpg",
+    "description": "One dark river stone resting on still navy water above its own reflection, a single small ripple leaving it to the right.",
+    "roles": [
+     "closing",
+     "section"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "still-water",
+    "stock": false
+   },
+   {
+    "file": "images/bonsai-plinth-wide.jpg",
+    "description": "A sculptural bonsai on a rough stone plinth in the left third, the right two thirds an unbroken pale blue sky gradient.",
+    "roles": [
+     "cover",
+     "hero"
+    ],
+    "hero": true,
+    "treatment": "none",
+    "theme": "bonsai-sky",
+    "stock": false
+   },
+   {
+    "file": "images/bonsai-branch.jpg",
+    "description": "A single bonsai branch sweeping across a near-white sky toward a pale stone block at the lower right.",
+    "roles": [
+     "section"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "bonsai-sky",
+    "stock": false
+   },
+   {
+    "file": "images/bonsai-sea-horizon.jpg",
+    "description": "A bonsai on a small rock cluster at a level sea horizon, three quarters of the frame a smooth pale sky.",
+    "roles": [
+     "cover",
+     "closing"
+    ],
+    "hero": false,
+    "treatment": "none",
+    "theme": "bonsai-sky",
+    "stock": false
    }
   ],
   "video": {

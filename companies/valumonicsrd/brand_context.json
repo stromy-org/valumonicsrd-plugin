@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "0fefafba12de82d90604dc6c6fc10d1939a9e60bd12e947acfe1c252d0c287c7",
+    "charterSha": "3f4cb9b0e533182a671f452c37916edac7db7635df2b3f2c6088b7716c649c84",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -49,10 +49,10 @@
       "webSafe": "Arial"
     },
     "mono": {
-      "family": "ui-monospace",
+      "family": "Spline Sans Mono",
       "weight": "normal",
       "fallback": "SFMono-Regular, Menlo, Consolas, monospace",
-      "embedFamily": "ui-monospace",
+      "embedFamily": "Spline Sans Mono",
       "fallbackStack": [
         "SFMono-Regular",
         "Menlo",
@@ -76,7 +76,7 @@
       "tracking": "0.06em"
     }
   },
-  "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary: #2c74bc;\n  --color-secondary: #142c4c;\n  --color-accent: #c4daf3;\n  --color-background: #f7f7f7;\n  --color-background-alt: #f2f7fd;\n  --color-text: #142c4c;\n  --color-text-light: #acacb3;\n  --color-success: #3E7E5B;\n  --color-warning: #C69A4E;\n  --color-error: #B5544D;\n\n  /* Design-system extras */\n  --color-surface: #ffffff;\n  --color-text-on-accent: #ffffff;\n  --color-blue-dark: #1b4d89;\n  --color-warm-white: #f9f7f5;\n\n  /* Fonts */\n  --font-heading: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-body: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;\n  --font-label: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n\n  /* Brand geometry & elevation (from live-site Tier 4/5) */\n  --radius-pill: 200px;\n  --radius-nav: 50px;\n  --radius-card: 14px;\n  --shadow-soft: 0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06);\n  --gradient-brand-light: linear-gradient(to right, #c4daf3, #2c74bc);\n  --gradient-brand-dark: linear-gradient(to right, #1b4d89, #2c74bc);\n}\n",
+  "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary: #2c74bc;\n  --color-secondary: #142c4c;\n  --color-accent: #c4daf3;\n  --color-background: #f7f7f7;\n  --color-background-alt: #f2f7fd;\n  --color-text: #142c4c;\n  --color-text-light: #acacb3;\n  --color-success: #3E7E5B;\n  --color-warning: #C69A4E;\n  --color-error: #B5544D;\n\n  /* Design-system extras */\n  --color-surface: #ffffff;\n  --color-text-on-accent: #ffffff;\n  --color-blue-dark: #1b4d89;\n  --color-warm-white: #f9f7f5;\n\n  /* Fonts */\n  --font-heading: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-body: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-mono: 'Spline Sans Mono', SFMono-Regular, Menlo, Consolas, monospace;\n  --font-label: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n\n  /* Brand geometry & elevation (from live-site Tier 4/5) */\n  --radius-pill: 200px;\n  --radius-nav: 50px;\n  --radius-card: 14px;\n  --shadow-soft: 0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06);\n  --gradient-brand-light: linear-gradient(to right, #c4daf3, #2c74bc);\n  --gradient-brand-dark: linear-gradient(to right, #1b4d89, #2c74bc);\n}\n",
   "identity": {
     "essence": "El puente entre el valor real y la liquidez estratégica — quiet, patient expertise that protects and grows Dominican family wealth.",
     "positioning": "Firma independiente líder de banca de inversión y consultoría estratégica en República Dominicana, para familias empresarias y empresas líderes del middle-market.",
@@ -185,7 +185,7 @@
     ],
     "visual_grammar": {
       "backgrounds": {
-        "status": "proposed",
+        "status": "approved",
         "evidence": {
           "tier": "live-site",
           "source": "grammar-evidence/{homepage-full,la-firma-full,equipo-full}.png + Salient dynamic CSS canvas colors"
@@ -227,10 +227,10 @@
         }
       },
       "motifs": {
-        "status": "proposed",
+        "status": "approved",
         "evidence": {
           "tier": "live-site",
-          "source": "ripple mark rendered at ~482px as section motif on valumonics.com; polygon shape-divider rgba(172,172,179,0.38). SVG vectorization outstanding — marks are PNG-only."
+          "source": "ripple mark rendered at ~482px as section motif on valumonics.com; polygon shape-divider rgba(172,172,179,0.38). SVG vectorization outstanding — marks are PNG-only. Stacked half-disc covers confirmed on Instagram (2026-08-26)."
         },
         "assets": [
           "logos/icon.png",
@@ -251,13 +251,18 @@
               "desc": "white variant for navy panels and imagery"
             },
             {
+              "id": "social-half-discs",
+              "desc": "stacked translucent semicircles in the brand-dark gradient, kin to the ripple arcs; 25-40% opacity, overlap allowed, navy canvas only (adopted from Instagram carousel covers 2026-08-26)"
+            },
+            {
               "id": "shape-divider",
               "desc": "flat polygon section divider, rgba(172,172,179,0.38)"
             }
           ],
           "roles": {
             "section-accent": "oversized ghosted ripple as section punctuation",
-            "divider-edge": "polygon divider between contrasting canvases"
+            "divider-edge": "polygon divider between contrasting canvases",
+            "social-cover": "two overlapped brand-dark-gradient half-discs as cover composition, navy canvas only"
           },
           "allowedSurfaces": [
             "cover",
@@ -283,7 +288,7 @@
         }
       },
       "grid": {
-        "status": "proposed",
+        "status": "approved",
         "evidence": {
           "tier": "live-site",
           "source": "Salient container metrics measured on valumonics.com (container 1425px / padding 70px / wide 1725px / single-post 700px)"
@@ -299,7 +304,7 @@
         }
       },
       "iconography": {
-        "status": "proposed",
+        "status": "approved",
         "evidence": {
           "tier": "live-site",
           "source": "minimal icon use: thin-line Salient/Linea icons + footer social glyphs; no brand-owned icon set (sample capped at 0)"
@@ -314,7 +319,7 @@
         }
       },
       "gradients": {
-        "status": "proposed",
+        "status": "approved",
         "evidence": {
           "tier": "live-site",
           "source": "the two official Salient gradients on valumonics.com"
@@ -353,10 +358,10 @@
         }
       },
       "photo": {
-        "status": "proposed",
+        "status": "approved",
         "evidence": {
-          "tier": "derived",
-          "source": "compiled images/manifest.json treatments (none | navy-veil); team photos excluded from the render catalog by operator decision 2026-08-17"
+          "tier": "live-site",
+          "source": "compiled images/manifest.json treatments (none | navy-veil); navy-veil 0.55 over documentary photography confirmed live on Instagram carousel covers (2026-08-26); team photos excluded from the render catalog by operator decision 2026-08-17"
         },
         "selected": "manifest-treatments",
         "spec": {
@@ -366,7 +371,7 @@
         }
       },
       "elevation": {
-        "status": "proposed",
+        "status": "approved",
         "evidence": {
           "tier": "live-site",
           "source": "card shadow + pill radii measured on valumonics.com"

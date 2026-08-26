@@ -20,7 +20,7 @@
   /* Fonts */
   --font-heading: 'Manrope', Arial, 'Helvetica Neue', sans-serif;
   --font-body: 'Manrope', Arial, 'Helvetica Neue', sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-mono: 'Spline Sans Mono', SFMono-Regular, Menlo, Consolas, monospace;
   --font-label: 'Manrope', Arial, 'Helvetica Neue', sans-serif;
 
   /* Brand geometry & elevation (from live-site Tier 4/5) */

@@ -34,6 +34,7 @@
    "family": "Manrope",
    "embedFamily": "Manrope",
    "weight": "700",
+   "displayNote": "display pairing: 300 + 700 within one headline (first phrase Light, emphasis word Bold); body stays 500 — house headline style confirmed on Instagram covers 2026-08-26",
    "fallback": "Arial, 'Helvetica Neue', sans-serif",
    "fallbackStack": [
     "Arial",
@@ -55,8 +56,8 @@
    "webSafe": "Arial"
   },
   "mono": {
-   "family": "ui-monospace",
-   "embedFamily": "ui-monospace",
+   "family": "Spline Sans Mono",
+   "embedFamily": "Spline Sans Mono",
    "weight": "normal",
    "fallback": "SFMono-Regular, Menlo, Consolas, monospace",
    "fallbackStack": [
@@ -360,7 +361,7 @@
   ],
   "visual_grammar": {
    "backgrounds": {
-    "status": "proposed",
+    "status": "approved",
     "evidence": {
      "tier": "live-site",
      "source": "grammar-evidence/{homepage-full,la-firma-full,equipo-full}.png + Salient dynamic CSS canvas colors"
@@ -407,10 +408,10 @@
     "selected": "site-canvas-system"
    },
    "motifs": {
-    "status": "proposed",
+    "status": "approved",
     "evidence": {
      "tier": "live-site",
-     "source": "ripple mark rendered at ~482px as section motif on valumonics.com; polygon shape-divider rgba(172,172,179,0.38). SVG vectorization outstanding — marks are PNG-only."
+     "source": "ripple mark rendered at ~482px as section motif on valumonics.com; polygon shape-divider rgba(172,172,179,0.38). SVG vectorization outstanding — marks are PNG-only. Stacked half-disc covers confirmed on Instagram (2026-08-26)."
     },
     "assets": [
      "logos/icon.png",
@@ -433,13 +434,18 @@
          "desc": "white variant for navy panels and imagery"
         },
         {
+         "id": "social-half-discs",
+         "desc": "stacked translucent semicircles in the brand-dark gradient, kin to the ripple arcs; 25-40% opacity, overlap allowed, navy canvas only (adopted from Instagram carousel covers 2026-08-26)"
+        },
+        {
          "id": "shape-divider",
          "desc": "flat polygon section divider, rgba(172,172,179,0.38)"
         }
        ],
        "roles": {
         "section-accent": "oversized ghosted ripple as section punctuation",
-        "divider-edge": "polygon divider between contrasting canvases"
+        "divider-edge": "polygon divider between contrasting canvases",
+        "social-cover": "two overlapped brand-dark-gradient half-discs as cover composition, navy canvas only"
        },
        "allowedSurfaces": [
         "cover",
@@ -468,7 +474,7 @@
     }
    },
    "grid": {
-    "status": "proposed",
+    "status": "approved",
     "evidence": {
      "tier": "live-site",
      "source": "Salient container metrics measured on valumonics.com (container 1425px / padding 70px / wide 1725px / single-post 700px)"
@@ -489,7 +495,7 @@
     "selected": "salient-container"
    },
    "iconography": {
-    "status": "proposed",
+    "status": "approved",
     "evidence": {
      "tier": "live-site",
      "source": "minimal icon use: thin-line Salient/Linea icons + footer social glyphs; no brand-owned icon set (sample capped at 0)"
@@ -510,7 +516,7 @@
     "selected": "thin-line-minimal"
    },
    "gradients": {
-    "status": "proposed",
+    "status": "approved",
     "evidence": {
      "tier": "live-site",
      "source": "the two official Salient gradients on valumonics.com"
@@ -554,10 +560,10 @@
     "selected": "official-pair"
    },
    "photo": {
-    "status": "proposed",
+    "status": "approved",
     "evidence": {
-     "tier": "derived",
-     "source": "compiled images/manifest.json treatments (none | navy-veil); team photos excluded from the render catalog by operator decision 2026-08-17"
+     "tier": "live-site",
+     "source": "compiled images/manifest.json treatments (none | navy-veil); navy-veil 0.55 over documentary photography confirmed live on Instagram carousel covers (2026-08-26); team photos excluded from the render catalog by operator decision 2026-08-17"
     },
     "candidates": [
      {
@@ -572,7 +578,7 @@
     "selected": "manifest-treatments"
    },
    "elevation": {
-    "status": "proposed",
+    "status": "approved",
     "evidence": {
      "tier": "live-site",
      "source": "card shadow + pill radii measured on valumonics.com"

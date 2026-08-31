@@ -97,6 +97,15 @@
       "reservedExpressive": 0.25,
       "analyticalIntuitive": 0.2,
       "establishedRebellious": 0.1
+    },
+    "company": {
+      "name": "Valumonics",
+      "description": "Valumonics es una firma independiente de banca de inversión y consultoría estratégica con sede en Santo Domingo, República Dominicana. Acompaña a familias empresarias y a empresas líderes del middle-market dominicano en valoración, estructuración y ejecución de transacciones, con un enfoque discreto y técnico que conecta el valor real de un negocio con la liquidez estratégica.",
+      "website": "https://valumonics.com",
+      "industries": [
+        "Investment Banking",
+        "Management Consulting"
+      ]
     }
   },
   "boilerplate": {

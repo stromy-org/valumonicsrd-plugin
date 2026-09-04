@@ -40,7 +40,10 @@ though it will be handled carefully.
   longer, properly subordinated sentences; that is the register, not a fault.
 - Name the four service pillars with their own words: **Valoraciones**,
   **Transacciones**, **Servicios legales**, **Planificación patrimonial**.
-- State figures plainly and let them carry the weight (`+15 años`, `+25 años`).
+- State figures plainly and let them carry the weight (`+<N> años`,
+  `+<N> operaciones`). Take every figure from `profile.json` — this line fixes
+  the FORM, never the value; an unsourced figure written here would be read as
+  researched fact.
 
 ## Do not
 

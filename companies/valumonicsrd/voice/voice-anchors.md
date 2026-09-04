@@ -16,7 +16,7 @@ English register used for translated versions.
 > dominicano, brindando soluciones financieras y legales basadas en relaciones a
 > largo plazo, con foco en la creación de valor para sus patrimonios.
 
-## Anchor — registro de propuesta
+## Anchor — registro de propuesta (construido en registro, no verbatim)
 
 > Valumonics acompaña a su empresa en las cuatro etapas de la operación:
 > valoración, estructuración, negociación y cierre. Recomendamos iniciar por la
@@ -24,7 +24,7 @@ English register used for translated versions.
 > posterior resulta defendible. El alcance que se describe a continuación parte
 > de ese principio.
 
-## Anchor — registro analítico
+## Anchor — registro analítico (construido en registro, no verbatim)
 
 > El múltiplo observado en transacciones comparables del sector se sitúa entre
 > 6.0x y 7.5x EBITDA. La dispersión responde al tamaño y a la calidad de la
@@ -32,7 +32,7 @@ English register used for translated versions.
 > empresa familiar con estados auditados, el extremo superior del rango es
 > alcanzable; sin ellos, no lo es.
 
-## Anchor — English register (translated deliverables)
+## Anchor — English register (constructed in register, not verbatim)
 
 > Valumonics acts as an independent adviser to family businesses and leading
 > companies in the Dominican market. Our recommendation is to begin with an

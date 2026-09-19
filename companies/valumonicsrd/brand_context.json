@@ -86,6 +86,7 @@
   },
   "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary: #2c74bc;\n  --color-secondary: #142c4c;\n  --color-accent: #c4daf3;\n  --color-background: #f7f7f7;\n  --color-background-alt: #f2f7fd;\n  --color-text: #142c4c;\n  --color-text-light: #acacb3;\n  --color-success: #3E7E5B;\n  --color-warning: #C69A4E;\n  --color-error: #B5544D;\n\n  /* Design-system extras */\n  --color-surface: #ffffff;\n  --color-text-on-accent: #ffffff;\n  --color-blue-dark: #1b4d89;\n  --color-warm-white: #f9f7f5;\n\n  /* Fonts */\n  --font-heading: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-body: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n  --font-mono: 'Spline Sans Mono', SFMono-Regular, Menlo, Consolas, monospace;\n  --font-label: 'Manrope', Arial, 'Helvetica Neue', sans-serif;\n\n  /* Brand geometry & elevation (from live-site Tier 4/5) */\n  --radius-pill: 200px;\n  --radius-nav: 50px;\n  --radius-card: 14px;\n  --shadow-soft: 0 1px 0 rgba(0,0,0,.04), 0 2px 7px rgba(0,0,0,.05), 0 12px 22px rgba(0,0,0,.06);\n  --gradient-brand-light: linear-gradient(to right, #c4daf3, #2c74bc);\n  --gradient-brand-dark: linear-gradient(to right, #1b4d89, #2c74bc);\n}\n",
   "identity": {
+    "name": "Valumonics",
     "essence": "El puente entre el valor real y la liquidez estratégica — quiet, patient expertise that protects and grows Dominican family wealth.",
     "positioning": "Firma independiente líder de banca de inversión y consultoría estratégica en República Dominicana, para familias empresarias y empresas líderes del middle-market.",
     "archetype": {
@@ -484,12 +485,14 @@
       "#B5544D"
     ],
     "baseTemplate": "plotly_white",
+    "canvasColor": "#f7f7f7",
     "font": {
       "family": "Manrope",
       "color": "#142c4c"
     },
     "titleFontSize": 18,
     "gridColor": "#f2f7fd",
+    "secondaryTextColor": "#acacb3",
     "sentiment": {
       "positive": "#3E7E5B",
       "negative": "#B5544D",
@@ -1008,6 +1011,6 @@
       "patterns",
       "photo"
     ],
-    "sha256": "fa0845ac35077f6a0bd6e25c6e15d2eb6ed3d98e2478629b903b7f8a36bcd4d0"
+    "sha256": "69390cf4b3d742c38b78dd32998b34da64937c543ea2273d5a3f9068d498b720"
   }
 }

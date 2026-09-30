@@ -1,0 +1,144 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/stromy-org/stromy-org/main/scripts/plugin-package.schema.json
+# CANONICAL plugin package (ORG-PLAN-165) — the ONLY authored source of this
+# plugin's identity, version, targets, skills and marketplace listing. Every
+# provider manifest is generated from it: edit here, then run
+#   python3 scripts/render-plugin-package.py --write --plugin <this repo>
+# (from stromy-org). .copier-answers.yml is template provenance, never release state.
+schema_version: 1
+identity:
+  name: valumonicsrd-plugin
+  display_name: Valumonics
+  version: 0.1.28
+  description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican
+    Republic government-data intelligence (do-gov-data MCP)
+  author:
+    name: stromy-org
+  repository: https://github.com/stromy-org/valumonicsrd-plugin
+  license: UNLICENSED
+targets:
+- openai
+- codex
+- claude
+- cursor
+- copilot
+- vscode
+- kiro
+- gemini
+portable_capabilities:
+  dominican-government-research:
+    summary: Dominican Republic public-affairs research from official sources
+    skills:
+    - do-caselaw-watch
+    - do-consolidated-law
+    - do-gov-data
+    - do-guide
+    - do-legislative-scan
+    - do-policy-landscape
+    - do-procurement-watch
+    - do-spend-accountability
+    - do-transparency-requests
+    mcp_servers:
+    - do-gov-data
+  branded-deliverables:
+    summary: Branded documents, decks, charts, diagrams and video rendered server-side in the client's
+      brand
+    skills:
+    - format-chart
+    - format-diagram
+    - format-docx
+    - format-docx-hd
+    - format-guide
+    - format-html-hd
+    - format-html-reveal
+    - format-i18n
+    - format-mermaid
+    - format-motion
+    - format-pdf
+    - format-pdf-hd
+    - format-pptx
+    - format-pptx-hd
+    - format-prepare-document
+    - format-video-hd
+    - format-xlsx
+    mcp_servers:
+    - stromy-format
+  plugin-workflows:
+    summary: Workflows authored for this plugin and shipped inside it
+    skills:
+    - getting-started
+skills:
+  include:
+  - do-caselaw-watch
+  - do-consolidated-law
+  - do-gov-data
+  - do-guide
+  - do-legislative-scan
+  - do-policy-landscape
+  - do-procurement-watch
+  - do-spend-accountability
+  - do-transparency-requests
+  - format-chart
+  - format-diagram
+  - format-docx
+  - format-docx-hd
+  - format-guide
+  - format-html-hd
+  - format-html-reveal
+  - format-i18n
+  - format-mermaid
+  - format-motion
+  - format-pdf
+  - format-pdf-hd
+  - format-pptx
+  - format-pptx-hd
+  - format-prepare-document
+  - format-video-hd
+  - format-xlsx
+  - getting-started
+  provider_extras:
+  - skill: asset-editor
+    providers:
+    - claude
+    capability: asset-broker-connector
+    reason: 'Hosted on the OAuth-gated ''asset-broker'' MCP, which reaches a session only as an authorized
+      Claude/Cowork workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: asset-feedback
+    providers:
+    - claude
+    capability: asset-broker-connector
+    reason: 'Hosted on the OAuth-gated ''asset-broker'' MCP, which reaches a session only as an authorized
+      Claude/Cowork workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: asset-guide
+    providers:
+    - claude
+    capability: asset-broker-connector
+    reason: 'Hosted on the OAuth-gated ''asset-broker'' MCP, which reaches a session only as an authorized
+      Claude/Cowork workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: asset-workspace-setup
+    providers:
+    - claude
+    capability: asset-broker-connector
+    reason: 'Hosted on the OAuth-gated ''asset-broker'' MCP, which reaches a session only as an authorized
+      Claude/Cowork workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: format-workspace-cowork
+    providers:
+    - claude
+    capability: cowork-workspace
+    reason: Co-edits SharePoint workspace artifacts through workspace-scoped tools that exist only in
+      a Cowork workspace session.
+  - skill: format-workspace-memory
+    providers:
+    - claude
+    capability: cowork-workspace
+    reason: Reads and writes the client's SharePoint workspace record through workspace-scoped tools that
+      exist only in a Cowork workspace session.
+marketplace:
+  name: valumonicsrd-marketplace
+  repository: https://github.com/stromy-org/valumonicsrd-marketplace
+  description: Plugin marketplace for Valumonics plugins
+  entry_description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP)
+    and Dominican Republic government-data intelligence (do-gov-data MCP)
+  owner:
+    name: stromy-org
+  entry_author:
+    name: Stromy

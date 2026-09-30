@@ -1,0 +1,45 @@
+{
+  "$schema": "../../schema/boilerplate.schema.json",
+  "version": "1.0",
+  "description": "Default boilerplate strings consumed at render time by every format skill (pptx, pptx-hd, docx, pdf, pdf-hd, xlsx). Copied into a brand by brand-artifact-builder Always-On when the brand has no boilerplate.json of its own; the client name from meta.displayName is substituted into all Valumonics placeholders during the copy. Brands may override individual fields after the copy — never re-seed an existing file without explicit user request.",
+  "address": "Av. Winston Churchill Nº 95, Piso 21, Santo Domingo, República Dominicana",
+  "website": "valumonics.com",
+  "email": "info@valumonics.com",
+  "phone": "+1 809 732 0411",
+  "footer": {
+    "show": true,
+    "left": "Valumonics",
+    "center": "",
+    "right": "Page {page} of {pages}"
+  },
+  "confidentiality": {
+    "show": false,
+    "level": "internal",
+    "text": "Confidencial — uso interno de Valumonics. No distribuir sin autorización escrita.",
+    "position": "footer-left",
+    "fontPt": 8
+  },
+  "watermark": {
+    "show": false,
+    "text": "DRAFT",
+    "opacity": 0.08,
+    "rotationDeg": -30,
+    "fontPt": 96,
+    "color": "{{colors.textLight|#cccccc}}"
+  },
+  "legal": {
+    "copyright": "© {{year}} Valumonics. Todos los derechos reservados.",
+    "trademark": "",
+    "disclaimer": ""
+  },
+  "deck": {
+    "coverFooter": "",
+    "closingTagline": "Construir relaciones a largo plazo.",
+    "agendaTitle": "Agenda"
+  },
+  "document": {
+    "draftBadge": "DRAFT",
+    "tocTitle": "Table of Contents",
+    "appendixTitle": "Appendix"
+  }
+}

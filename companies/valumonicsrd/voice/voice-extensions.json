@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "additional_banned_phrases": [
+    "disruptivo",
+    "disruptiva",
+    "soluciones de vanguardia",
+    "llave en mano",
+    "sinergias",
+    "potenciar al máximo",
+    "líderes indiscutibles",
+    "el mejor del mercado",
+    "garantizamos",
+    "aseguramos el resultado",
+    "rentabilidad garantizada",
+    "revolucionario",
+    "game-changing",
+    "best-in-class",
+    "world-class",
+    "unlock value",
+    "supercharge"
+  ],
+  "additional_banned_substrings": [],
+  "notes": "Valumonics L2: additive-only bans on top of the L1 baseline. Two families — (a) agency/startup hype that contradicts the sober independent-adviser register, (b) outcome guarantees, which a regulated advisory firm must never make. The no-exclamation-marks and usted-register rules are prose rules in voice-profile.md rather than substring bans, because a blunt '!' substring would also fire inside code, URLs and quoted source material."
+}

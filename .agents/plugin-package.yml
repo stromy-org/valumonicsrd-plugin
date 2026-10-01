@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: valumonicsrd-plugin
   display_name: Valumonics
-  version: 0.1.28
+  version: 0.1.31
   description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican
     Republic government-data intelligence (do-gov-data MCP)
   author:

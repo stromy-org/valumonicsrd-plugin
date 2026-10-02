@@ -7,7 +7,11 @@
       "style": "normal",
       "sha256": "d0639be45d0af36e798172419d7bd173c4bd4f29e2b76cbb69db1d11bf8b0a40",
       "mime": "font/ttf",
-      "name": "Manrope[wght].ttf"
+      "name": "Manrope[wght].ttf",
+      "weight_range": [
+        200,
+        800
+      ]
     },
     {
       "family": "Spline Sans Mono",
@@ -15,7 +19,11 @@
       "style": "normal",
       "sha256": "e20c1df32aa2f886e828cfcc81ca5c405d3f3b160990f6b892923e2e449bf525",
       "mime": "font/ttf",
-      "name": "SplineSansMono[wght].ttf"
+      "name": "SplineSansMono[wght].ttf",
+      "weight_range": [
+        300,
+        700
+      ]
     }
   ],
   "logos": [
@@ -183,8 +191,10 @@
     }
   ],
   "brand_context": {
-    "sha256": "de3e3b6dce53676e013c02a690a4e4df631473ff9c6dfc5f2deca0e3a1b95157",
+    "sha256": null,
     "mime": "application/json",
-    "bytes": 33748
+    "bytes": 33748,
+    "pending_upload": "de3e3b6dce53676e013c02a690a4e4df631473ff9c6dfc5f2deca0e3a1b95157",
+    "reason": "no remote upload: local backend or dry-run"
   }
 }

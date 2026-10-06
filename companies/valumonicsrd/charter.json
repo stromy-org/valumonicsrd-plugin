@@ -352,7 +352,7 @@
  "expression": {
   "source": "official_published",
   "confidence": "medium",
-  "status": "needs-review",
+  "status": "approved",
   "principles": [
    "Quiet wealth: restrained blue field; gold exists ONLY inside the artwork, never as a UI color",
    "Pill geometry everywhere: 200px-radius buttons, floating pill nav, rounded cards",

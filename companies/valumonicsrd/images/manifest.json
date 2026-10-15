@@ -36,6 +36,12 @@
     "focalPoint": {
      "x": 0.28,
      "y": 0.32
+    },
+    "subjectBox": {
+     "x": 0.0,
+     "y": 0.2,
+     "w": 0.8,
+     "h": 0.7
     }
    },
    "source": "brand-intelligence 2026-08-16 (valumonics.com)",
@@ -58,6 +64,12 @@
     "focalPoint": {
      "x": 0.35,
      "y": 0.72
+    },
+    "subjectBox": {
+     "x": 0.2,
+     "y": 0.15,
+     "w": 0.8,
+     "h": 0.8
     }
    },
    "source": "brand-intelligence 2026-08-16 (valumonics.com)",
@@ -80,6 +92,12 @@
     "focalPoint": {
      "x": 0.3,
      "y": 0.28
+    },
+    "subjectBox": {
+     "x": 0.0,
+     "y": 0.2,
+     "w": 0.95,
+     "h": 0.75
     }
    },
    "source": "brand-intelligence 2026-08-16 (valumonics.com)",
@@ -103,6 +121,12 @@
     "focalPoint": {
      "x": 0.5,
      "y": 0.42
+    },
+    "subjectBox": {
+     "x": 0.3,
+     "y": 0.1,
+     "w": 0.4,
+     "h": 0.9
     }
    },
    "source": "brand-intelligence 2026-08-16 (valumonics.com)",
@@ -131,6 +155,12 @@
      "y": 0.0,
      "w": 0.58,
      "h": 1.0
+    },
+    "subjectBox": {
+     "x": 0.08,
+     "y": 0.3,
+     "w": 0.27,
+     "h": 0.25
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
@@ -166,6 +196,12 @@
      "y": 0.55,
      "w": 0.5,
      "h": 0.45
+    },
+    "subjectBox": {
+     "x": 0.1,
+     "y": 0.3,
+     "w": 0.8,
+     "h": 0.5
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
@@ -195,6 +231,12 @@
     "focalPoint": {
      "x": 0.5,
      "y": 0.5
+    },
+    "subjectBox": {
+     "x": 0.3,
+     "y": 0.3,
+     "w": 0.4,
+     "h": 0.4
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
@@ -224,6 +266,12 @@
     "focalPoint": {
      "x": 0.5,
      "y": 0.5
+    },
+    "subjectBox": {
+     "x": 0.3,
+     "y": 0.2,
+     "w": 0.4,
+     "h": 0.6
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
@@ -259,6 +307,12 @@
      "y": 0.0,
      "w": 1.0,
      "h": 0.45
+    },
+    "subjectBox": {
+     "x": 0.38,
+     "y": 0.45,
+     "w": 0.34,
+     "h": 0.3
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
@@ -294,6 +348,12 @@
      "y": 0.0,
      "w": 0.55,
      "h": 1.0
+    },
+    "subjectBox": {
+     "x": 0.05,
+     "y": 0.3,
+     "w": 0.4,
+     "h": 0.65
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
@@ -328,6 +388,12 @@
      "y": 0.3,
      "w": 0.5,
      "h": 0.6
+    },
+    "subjectBox": {
+     "x": 0.0,
+     "y": 0.0,
+     "w": 0.55,
+     "h": 0.7
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",
@@ -363,6 +429,12 @@
      "y": 0.0,
      "w": 0.55,
      "h": 0.6
+    },
+    "subjectBox": {
+     "x": 0.6,
+     "y": 0.5,
+     "w": 0.4,
+     "h": 0.5
     }
    },
    "source": "brand-imagery generation 2026-08-26 (ORG-225 follow-on, DoD image floor)",

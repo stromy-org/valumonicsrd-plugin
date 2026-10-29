@@ -1045,6 +1045,28 @@
     "textMuted": "--color-text-light",
     "edge": null
   },
+  "presentation": {
+    "backgrounds": {
+      "gradient-dark": "pptx-assets/gradient-dark.png",
+      "gradient-accent": "pptx-assets/gradient-accent.png",
+      "gradient-light": "pptx-assets/gradient-light.png",
+      "overlay-art-navy-gold-01": "pptx-assets/overlays/art-navy-gold-01-overlay.jpg",
+      "overlay-art-navy-gold-02": "pptx-assets/overlays/art-navy-gold-02-overlay.jpg",
+      "overlay-art-navy-gold-03": "pptx-assets/overlays/art-navy-gold-03-overlay.jpg",
+      "overlay-hero-bonsai-poster": "pptx-assets/overlays/hero-bonsai-poster-overlay.jpg"
+    },
+    "margins": {
+      "slide": "40pt",
+      "title": "60pt",
+      "content": "40pt"
+    },
+    "aspectRatio": "16:9",
+    "textFit": {
+      "lintFont": "Arial",
+      "widen": 1.04,
+      "lineHeight": 1.22
+    }
+  },
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
@@ -1062,6 +1084,7 @@
       "images",
       "logo",
       "plotly_theme",
+      "presentation",
       "schemaVersion",
       "surfaceExpression",
       "templates",
@@ -1084,6 +1107,6 @@
       "photo"
     ],
     "images_count": 12,
-    "sha256": "baec1969c339c711e3a442d61ccff12f02617913c20f24f44613f4c25087525b"
+    "sha256": "8e8e436a97e1860a9ca6bb34d10a821ab5b975d527801419bb172ad290ae0e97"
   }
 }

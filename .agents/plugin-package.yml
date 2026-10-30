@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: valumonicsrd-plugin
   display_name: Valumonics
-  version: 0.1.37
+  version: 0.1.38
   description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican
     Republic government-data intelligence (do-gov-data MCP)
   author:
@@ -49,9 +49,7 @@ portable_capabilities:
     - format-docx-hd
     - format-guide
     - format-html-hd
-    - format-html-reveal
     - format-i18n
-    - format-mermaid
     - format-motion
     - format-pdf
     - format-pdf-hd
@@ -83,9 +81,7 @@ skills:
   - format-docx-hd
   - format-guide
   - format-html-hd
-  - format-html-reveal
   - format-i18n
-  - format-mermaid
   - format-motion
   - format-pdf
   - format-pdf-hd

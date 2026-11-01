@@ -190,6 +190,7 @@
       "mime": "image/jpeg"
     }
   ],
+  "templates": [],
   "brand_context": {
     "sha256": "97f286351c7e8828ad1db0ef7a1afa94cbd13af10b0f2ddfa75bd4cd51421f8f",
     "mime": "application/json",

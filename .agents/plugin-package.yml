@@ -9,8 +9,7 @@ identity:
   name: valumonicsrd-plugin
   display_name: Valumonics
   version: 0.1.43
-  description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican
-    Republic government-data intelligence (do-gov-data MCP)
+  description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP)
   author:
     name: stromy-org
   repository: https://github.com/stromy-org/valumonicsrd-plugin
@@ -25,20 +24,6 @@ targets:
 - kiro
 - gemini
 portable_capabilities:
-  dominican-government-research:
-    summary: Dominican Republic public-affairs research from official sources
-    skills:
-    - do-caselaw-watch
-    - do-consolidated-law
-    - do-gov-data
-    - do-guide
-    - do-legislative-scan
-    - do-policy-landscape
-    - do-procurement-watch
-    - do-spend-accountability
-    - do-transparency-requests
-    mcp_servers:
-    - do-gov-data
   branded-deliverables:
     summary: Branded documents, decks, charts, diagrams and video rendered server-side in the client's
       brand
@@ -66,15 +51,6 @@ portable_capabilities:
     - getting-started
 skills:
   include:
-  - do-caselaw-watch
-  - do-consolidated-law
-  - do-gov-data
-  - do-guide
-  - do-legislative-scan
-  - do-policy-landscape
-  - do-procurement-watch
-  - do-spend-accountability
-  - do-transparency-requests
   - format-chart
   - format-diagram
   - format-docx
@@ -133,7 +109,6 @@ marketplace:
   repository: https://github.com/stromy-org/valumonicsrd-marketplace
   description: Plugin marketplace for Valumonics plugins
   entry_description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP)
-    and Dominican Republic government-data intelligence (do-gov-data MCP)
   owner:
     name: stromy-org
   entry_author:

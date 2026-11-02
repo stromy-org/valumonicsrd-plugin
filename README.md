@@ -1,6 +1,6 @@
 # Valumonics Deliverables
 
-Claude Code plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican Republic government-data intelligence (do-gov-data MCP)
+Claude Code plugin for Valumonics branded deliverables (format skills via stromy-format MCP)
 
 ## Prerequisites
 

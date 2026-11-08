@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: valumonicsrd-plugin
   display_name: Valumonics
-  version: 0.1.43
+  version: 0.1.44
   description: Plugin for Valumonics branded deliverables (format skills via stromy-format MCP)
   author:
     name: stromy-org
@@ -45,10 +45,6 @@ portable_capabilities:
     - format-xlsx
     mcp_servers:
     - stromy-format
-  plugin-workflows:
-    summary: Workflows authored for this plugin and shipped inside it
-    skills:
-    - getting-started
 skills:
   include:
   - format-chart
@@ -66,7 +62,6 @@ skills:
   - format-prepare-document
   - format-video-hd
   - format-xlsx
-  - getting-started
   provider_extras:
   - skill: asset-editor
     providers:

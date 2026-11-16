@@ -1,7 +1,7 @@
 {
   "name": "valumonicsrd-plugin",
   "displayName": "Valumonics",
-  "version": "0.1.44",
+  "version": "0.1.45",
   "description": "Plugin for Valumonics branded deliverables (format skills via stromy-format MCP)",
   "author": {
     "name": "stromy-org"

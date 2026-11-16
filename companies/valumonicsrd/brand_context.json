@@ -1161,6 +1161,140 @@
       }
     }
   },
+  "libraryHandles": [
+    {
+      "path": "images/art-navy-gold-01.png",
+      "sha256": "6cd4af39fd59e4132a2f696ce66a793f75646285842d86b1e8c7e372d15ecdb7",
+      "mime": "image/png",
+      "libraryId": "images-art-navy-gold-01.png"
+    },
+    {
+      "path": "images/art-navy-gold-02.png",
+      "sha256": "3af195ac752fd7077bee07f02be80352818bcda4d666c7ca048c93e61970d3a1",
+      "mime": "image/png",
+      "libraryId": "images-art-navy-gold-02.png"
+    },
+    {
+      "path": "images/art-navy-gold-03.png",
+      "sha256": "94458d070aea623c407951ce060ce2a26c78da3a37e133237ea1dd9185122f29",
+      "mime": "image/png",
+      "libraryId": "images-art-navy-gold-03.png"
+    },
+    {
+      "path": "images/bonsai-branch.jpg",
+      "sha256": "4c5935a072372aaae368a780c773162e8b66e2ad6f4c52b8794f0fa765c814ea",
+      "mime": "image/jpeg",
+      "libraryId": "images-bonsai-branch.jpg"
+    },
+    {
+      "path": "images/bonsai-plinth-wide.jpg",
+      "sha256": "ef82e24dfb996bb661fdaf1133030997cafe37db98adf476e400e77bd692374b",
+      "mime": "image/jpeg",
+      "libraryId": "images-bonsai-plinth-wide.jpg"
+    },
+    {
+      "path": "images/bonsai-sea-horizon.jpg",
+      "sha256": "ca23e1bc6ddf1abc8e0a0187ee4d57e341c3c8c535240dc575072638abb95b75",
+      "mime": "image/jpeg",
+      "libraryId": "images-bonsai-sea-horizon.jpg"
+    },
+    {
+      "path": "images/glass-bands.jpg",
+      "sha256": "c7e8d972eca0b83dcc4a4af6a062c7af810e5a1fb675ba7516438fc83a7d4ba7",
+      "mime": "image/jpeg",
+      "libraryId": "images-glass-bands.jpg"
+    },
+    {
+      "path": "images/hero-bonsai-poster.jpg",
+      "sha256": "b20f2daf6341e1b9ece7abd0a3f3b58c8701ed4d5e0042a936ba94dd1c8dd597",
+      "mime": "image/jpeg",
+      "libraryId": "images-hero-bonsai-poster.jpg"
+    },
+    {
+      "path": "images/hero-video.mp4",
+      "sha256": "bcdfc1d4ae7b126da6977e761941ecb1952b98d1356f039f884ca582adebe734",
+      "mime": "video/mp4",
+      "libraryId": "images-hero-video.mp4"
+    },
+    {
+      "path": "images/ripple-pair-ledge.jpg",
+      "sha256": "9e13a47d3b9fcd6215a490e420043de35c5469ae39ca73f95513918f7f694b48",
+      "mime": "image/jpeg",
+      "libraryId": "images-ripple-pair-ledge.jpg"
+    },
+    {
+      "path": "images/ripple-still-water.jpg",
+      "sha256": "e777ad2401ad7fe8333a1b3e2da1ed65b3a4f0bcb8a89422bf125dd3c30da3f5",
+      "mime": "image/jpeg",
+      "libraryId": "images-ripple-still-water.jpg"
+    },
+    {
+      "path": "images/slate-strata.jpg",
+      "sha256": "d8ac7cbf4efc6a8cb353fbad37f165651f775a2a1704e499bc9bac44313b92dd",
+      "mime": "image/jpeg",
+      "libraryId": "images-slate-strata.jpg"
+    },
+    {
+      "path": "images/stone-on-water.jpg",
+      "sha256": "d8d8fed4f4634277fde96a6f858abf0e0099b79518269cf7327aee1309ab3f27",
+      "mime": "image/jpeg",
+      "libraryId": "images-stone-on-water.jpg"
+    },
+    {
+      "path": "pptx-assets/gradient-accent.png",
+      "sha256": "8c37f0d96fdcf4c69a8238a58e37a36ab11494b3887a381f789978faaba222ef",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradient-accent.png"
+    },
+    {
+      "path": "pptx-assets/gradient-dark.png",
+      "sha256": "d2030288ec50c05be508513c6faecccd928e7771655875d948adcbf16a4beef9",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradient-dark.png"
+    },
+    {
+      "path": "pptx-assets/gradient-light.png",
+      "sha256": "314042d96e351961d0cbd58170f3d75bde0c27ce48b38b5c55728b29d8de2cc2",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradient-light.png"
+    },
+    {
+      "path": "pptx-assets/overlays/art-navy-gold-01-overlay.jpg",
+      "sha256": "3531b96e5126529ea0f4f007d5b88950eb04dcb116ba6f5c71322949c0bdd53d",
+      "mime": "image/jpeg",
+      "libraryId": "pptx-assets-overlays-art-navy-gold-01-overlay.jpg"
+    },
+    {
+      "path": "pptx-assets/overlays/art-navy-gold-02-overlay.jpg",
+      "sha256": "4e8c721427197492e44ac43a8f19a4621d4bde14fc37be4116f5505f7fd96716",
+      "mime": "image/jpeg",
+      "libraryId": "pptx-assets-overlays-art-navy-gold-02-overlay.jpg"
+    },
+    {
+      "path": "pptx-assets/overlays/art-navy-gold-03-overlay.jpg",
+      "sha256": "e88470ed93ec873a0a667429ffddfa9d87d0d2e33a958f219637172243f20a21",
+      "mime": "image/jpeg",
+      "libraryId": "pptx-assets-overlays-art-navy-gold-03-overlay.jpg"
+    },
+    {
+      "path": "pptx-assets/overlays/hero-bonsai-poster-overlay.jpg",
+      "sha256": "5ce2ffe460ad08d621244c48b1e09727923f0ea21ddd12c452a0a384915b7a01",
+      "mime": "image/jpeg",
+      "libraryId": "pptx-assets-overlays-hero-bonsai-poster-overlay.jpg"
+    },
+    {
+      "path": "templates/docx/letterhead.docx",
+      "sha256": "2697a4b7bf1f6e34f40e956b10878e9841dc785839a7f518a14f93b954100637",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-letterhead.docx"
+    },
+    {
+      "path": "templates/docx/styles.docx",
+      "sha256": "caa6cbbbf3b9d0f4aa529874b9dc8b62e472ef0b6bc27f9a6882f7975c334a22",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-styles.docx"
+    }
+  ],
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
@@ -1177,6 +1311,7 @@
       "generatedFrom",
       "identity",
       "images",
+      "libraryHandles",
       "logo",
       "plotly_theme",
       "presentation",
@@ -1203,6 +1338,6 @@
       "photo"
     ],
     "images_count": 12,
-    "sha256": "edc2785f927bcefe2fc7ef6d719277a1147f9de3f7d8608feb1088cdc0c62c96"
+    "sha256": "b89765fa6af03885f035bd3366ae49cf5d86dea296170d557970231bb159b384"
   }
 }

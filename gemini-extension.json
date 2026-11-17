@@ -1,10 +1,5 @@
 {
   "name": "valumonicsrd-plugin",
   "version": "0.1.45",
-  "description": "Plugin for Valumonics branded deliverables (format skills via stromy-format MCP)",
-  "mcpServers": {
-    "stromy-format": {
-      "httpUrl": "https://stromy-format-mcp.whitetree-762cff59.westeurope.azurecontainerapps.io/mcp"
-    }
-  }
+  "description": "Plugin for Valumonics branded deliverables (format skills via stromy-format MCP)"
 }
